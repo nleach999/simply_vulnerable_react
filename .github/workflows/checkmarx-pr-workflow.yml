@@ -20,7 +20,7 @@ jobs:
     - name: Checkmarx Scan
       uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.4
       with:
-        project: PR-simply_vulnerable_react-${{ github.ref_name }}
+        project: PR-simply_vulnerable_react-${{ github.head_ref }}
         team: /CxServer/GitHubAction
         checkmarx_url: ${{ secrets.CHECKMARX_URL }}
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
