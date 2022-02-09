@@ -28,6 +28,7 @@ jobs:
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
         scanners: sast
         incremental: false
+        break_build: true
         bug_tracker: GITHUBPULL
         preset: Checkmarx Express
         params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --merge-id=${{ github.event.number }} --checkmarx.cx-branch=true --github.block-merge=true
