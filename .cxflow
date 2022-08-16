@@ -11,7 +11,7 @@
 	"additionalProperties": {
 		"cxFlow": {
 			"application": "Simply Vulnerable React",
-			"branches": ["demo-master"],
+			"branches": ["demo-master2"],
 			"jira": {
 				"project": "SV"
 			}
