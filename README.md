@@ -6,6 +6,8 @@ The purpose of this application is to demonstrate vulnerabilities when using Rea
 Most output using React is escaped by default.  It generally requires using the `dangerouslySetInnerHTML` attribute to bypass React's escaping mechanism.  It is also possible to write directly into the DOM via non-React DOM manipulation methods.
 
 
+
+
 ## How to Run
 
 ### Running the API
